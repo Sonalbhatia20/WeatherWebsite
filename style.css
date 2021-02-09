@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../images/mostly-cloudy.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    color: white;
+    transition: background-image 0.4s ease-in-out;
+   
+}
+
+.dad{
+    height: 50vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    background: rgba(0,0,0,0.4);
+    color: #f2f2f2;
+}
+.location, 
+.temperature{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.for-the-date{
+    display:flex;
+    flex-direction: column;
+}
+.temperature{
+    flex-direction: column;
+}
+.degree-section{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.degree-section span {
+    margin: 10px;
+    font-size: 30px;
+}
+.degree-section h2{
+    font-size: 40px;
+}
+.temperature-description{
+    font-size: 25px;
+}
