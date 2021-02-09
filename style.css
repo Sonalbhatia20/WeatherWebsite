@@ -61,3 +61,24 @@ body{
 .temperature-description{
     font-size: 25px;
 }
+@media only screen and (max-width: 600px) {
+    .location-timezone{
+        font-size: 20px;
+    }
+    #date{
+        font-size: 10px;
+    }
+    .degree-section span {
+        font-size: 15px;
+    }
+    .degree-section h2{
+        font-size: 20px;
+    }
+    .temperature-description{
+        font-size: 15px;
+    }
+    #icon-image{
+        height:50px;
+        width: 50px;
+    }
+}
